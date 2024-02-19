@@ -1,0 +1,53 @@
+file(GLOB COMMON_HEADERS
+        "${PROJECT_SOURCE_DIR}/src/common/*.h"
+)
+file(GLOB COMMON_SOURCES
+        "${PROJECT_SOURCE_DIR}/src/common/*.cpp"
+)
+
+set(NVSE_HEADERS
+        "${PROJECT_SOURCE_DIR}/src/nvse/CommandTable.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/containers.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameAPI.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameBSExtraData.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameData.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameEffects.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameExtraData.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameForms.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameObjects.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameOSDepend.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameProcess.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameRTTI.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameScript.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameSettings.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTasks.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTiles.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTypes.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameUI.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/PluginAPI.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/SafeWrite.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/Utilities.h"
+        "${PROJECT_SOURCE_DIR}/src/nvse/utility.h"
+)
+set(NVSE_SOURCES
+        "${PROJECT_SOURCE_DIR}/src/nvse/containers.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameAPI.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameBSExtraData.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameData.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameExtraData.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameForms.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameObjects.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameOSDepend.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameProcess.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameRTTI.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameScript.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameSettings.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTasks.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTiles.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/GameTypes.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/NiTypes.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/printf.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/SafeWrite.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/Utilities.cpp"
+        "${PROJECT_SOURCE_DIR}/src/nvse/utility.cpp"
+)

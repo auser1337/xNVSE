@@ -1,0 +1,14 @@
+{
+  "name": "xnvse",
+  "version-semver": "6.3.5",
+  "port-version": 0,
+  "description": "New Vegas Script Extender (xNVSE) expands the engine and scripting capabilities of Fallout New Vegas.",
+  "supports": "windows & x86",
+  "builtin-baseline": "c823fd3e57035b10d970a96da2796a2db55e5df5",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
